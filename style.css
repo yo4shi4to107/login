@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+html{
+  width: 100%;
+  font-family: 'Noto Serif JP', serif;
+}
+
+body{
+  width: 100%;
+}
+
+h2{
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+button{
+  margin-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+  font-family: 'Noto Serif JP', serif;
+}
+button:hover{
+  color: #fff;
+  background: #000;
+}
+
+input{
+  margin-top: 1%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+.top p{
+  margin-top: 1%;
+}
+
+.top{
+  width:96%;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.sentTextShown{
+  font-size: 23px;
+  text-decoration: underline;
+  font-family: 'Noto Serif JP', serif;
+}
+.sentUrlShown{
+  font-size: 23px;
+  text-decoration: underline;
+  font-family: 'Noto Serif JP', serif;
+}
+
+
+
+.enterErea{
+  width:96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+
+.checkUsernamePassword{
+  width: 100%;
+  margin-top: 3%;
+  border: solid;
+}
+
+.registrationUsernamePassword{
+  width: 100%;
+  margin-top: 3%;
+  border: solid;
+}
+
+.checkUsernamePasswordThe{
+  padding: 2%;
+}
+
+.registrationUsernamePasswordThe{
+  padding: 2%;
+}
+
+.registrationUsernamePasswordThe p{
+  padding-top: 1%;
+}
+
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに *//*
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*//*
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+*/
