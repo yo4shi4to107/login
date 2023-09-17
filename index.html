@@ -13,19 +13,18 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://yo4shi4to107.github.io/login/style.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
   <body>
 
-
-
     <div class="top">
+
       <h1>Login</h1>
       <p>確認エリアにて、伝えられたユーザーネームとパスワードを入力し、ログインボタンを押してください。</p>
+
     </div>
 
 
     <div class="enterErea">
-
-
 
       <div class="checkUsernamePassword">
         <h2>ログインエリア</h2>
@@ -34,11 +33,12 @@
           <input id="userName" type="text" name="" placeholder="userName">
           <input id="passWord" type="text" name="" placeholder="passWord">
           <button type="button" name="button" onclick="check()">ログイン</button>
-          <p id="sentText" class="sentTextShown">ここにメッセージが表示されます。</p>
-          <a id="sentUrl" class="sentUrlShown" href="">ここにURLが表示されます。</a>
+          <div class="answer">
+            <p id="sentText" class="sentTextShown">ここにメッセージが表示されます。</p>
+            <a id="sentUrl" class="sentUrlShown" href="">ここにURLが表示されます。</a>
+          </div>
         </div>
       </div>
-
 
       <div class="registrationUsernamePassword">
         <h2>登録エリア</h2>
@@ -49,18 +49,14 @@
           <input id="registUrl" type="url" name="" placeholder="url">
           <input id="programmerCheck" type="text" name="" placeholder="PCPW">
           <button type="button" name="button" onclick="registration()">regist</button>
-          <p id="registcheck">ユーザーネームとパスワードを入力してください。</p>
+          <div class="answer">
+            <p id="registcheck">ユーザーネームとパスワードを入力してください。</p>
+          </div>
         </div>
       </div>
 
-
-
     </div>
 
-
-
-    <script src="main.js">
-
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
